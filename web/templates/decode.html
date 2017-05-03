@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>CS460 Final Project</title>
+    <!-- CSS Stylesheets  Use jinja to get the css style files from materialize and custom css file-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.5/socket.io.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static',filename='css/materialize.css') }}"
+          media="screen,projection"/>
+    <link href="{{ url_for('static',filename='css/style.css') }}" type="text/css" rel="stylesheet"
+          media="screen,projection"/>
+    {# Creates a navigation bar which allows register and login #}
+    <div class="navbar-fixed">
+        <nav class="pink accent-3">
+            <div class="nav-wrapper">
+                <a href="/" class="brand-logo center">CS460 Final Project</a>
+
+            </div>
+        </nav>
+    </div>
+</head>
+<body>
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <br><br>
+        {# Adds information about the project #}
+        <h1 class="header center black-text text-darken-4">Here is the Decoded Message</h1>
+
+        <h3>Message : {{message}}</h3>
+        <br><br>
+    </div>
+</div>
+</body>
+</html>
