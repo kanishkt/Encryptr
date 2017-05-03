@@ -4,7 +4,7 @@
 
 The idea is to send secret messages through images using our web and iOS apps. It is commonly known that images are the most shared resources in today’s world. More than 200 million people over the world use Instagram stories daily and Snapchat sees more than a million snaps created daily. With such a dominating effect of pictures in our lifestyles and everything being in the public domain, we thought of sending more information through this medium than just the image. The sender can selectively send the secret messages to whoever he decides, thus creating an end to end encryption system.
 
-# Working (about web app and iOS app)
+# Working (web app and iOS app)
 
 # Web App
 
