@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9760CD881EB1B72F00A1EFAD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9760CD871EB1B72F00A1EFAD /* GoogleService-Info.plist */; };
+		A78A678D31D72FB1D20451D8 /* Pods_Encryptr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AD69E78EB7A70E53B36BF1 /* Pods_Encryptr.framework */; };
+		E4C3BF4C1EAE0D1A007A90F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C3BF4B1EAE0D1A007A90F4 /* AppDelegate.swift */; };
+		E4C3BF4E1EAE0D1A007A90F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C3BF4D1EAE0D1A007A90F4 /* ViewController.swift */; };
+		E4C3BF511EAE0D1A007A90F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C3BF4F1EAE0D1A007A90F4 /* Main.storyboard */; };
+		E4C3BF531EAE0D1A007A90F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C3BF521EAE0D1A007A90F4 /* Assets.xcassets */; };
+		E4C3BF561EAE0D1A007A90F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C3BF541EAE0D1A007A90F4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		289C3640AC3777E7559AFD29 /* Pods-Encryptr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encryptr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Encryptr/Pods-Encryptr.release.xcconfig"; sourceTree = "<group>"; };
+		7E6F37AD689C2FC125618296 /* Pods-Encryptr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Encryptr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Encryptr/Pods-Encryptr.debug.xcconfig"; sourceTree = "<group>"; };
+		9760CD871EB1B72F00A1EFAD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E4C3BF481EAE0D1A007A90F4 /* Encryptr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Encryptr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C3BF4B1EAE0D1A007A90F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4C3BF4D1EAE0D1A007A90F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4C3BF501EAE0D1A007A90F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4C3BF521EAE0D1A007A90F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4C3BF551EAE0D1A007A90F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4C3BF571EAE0D1A007A90F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4AD69E78EB7A70E53B36BF1 /* Pods_Encryptr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Encryptr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4C3BF451EAE0D1A007A90F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78A678D31D72FB1D20451D8 /* Pods_Encryptr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5399F51A8369F87A523402CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4AD69E78EB7A70E53B36BF1 /* Pods_Encryptr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60C8F65F627383D52564D9CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E6F37AD689C2FC125618296 /* Pods-Encryptr.debug.xcconfig */,
+				289C3640AC3777E7559AFD29 /* Pods-Encryptr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4C3BF3F1EAE0D1A007A90F4 = {
+			isa = PBXGroup;
+			children = (
+				E4C3BF4A1EAE0D1A007A90F4 /* Encryptr */,
+				E4C3BF491EAE0D1A007A90F4 /* Products */,
+				60C8F65F627383D52564D9CA /* Pods */,
+				5399F51A8369F87A523402CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E4C3BF491EAE0D1A007A90F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4C3BF481EAE0D1A007A90F4 /* Encryptr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4C3BF4A1EAE0D1A007A90F4 /* Encryptr */ = {
+			isa = PBXGroup;
+			children = (
+				E4C3BF4B1EAE0D1A007A90F4 /* AppDelegate.swift */,
+				E4C3BF4D1EAE0D1A007A90F4 /* ViewController.swift */,
+				E4C3BF4F1EAE0D1A007A90F4 /* Main.storyboard */,
+				E4C3BF521EAE0D1A007A90F4 /* Assets.xcassets */,
+				E4C3BF541EAE0D1A007A90F4 /* LaunchScreen.storyboard */,
+				E4C3BF571EAE0D1A007A90F4 /* Info.plist */,
+				9760CD871EB1B72F00A1EFAD /* GoogleService-Info.plist */,
+			);
+			path = Encryptr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4C3BF471EAE0D1A007A90F4 /* Encryptr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C3BF5A1EAE0D1A007A90F4 /* Build configuration list for PBXNativeTarget "Encryptr" */;
+			buildPhases = (
+				43266F20BA7BFEA314B8DCEC /* [CP] Check Pods Manifest.lock */,
+				E4C3BF441EAE0D1A007A90F4 /* Sources */,
+				E4C3BF451EAE0D1A007A90F4 /* Frameworks */,
+				E4C3BF461EAE0D1A007A90F4 /* Resources */,
+				E6193E2FDF7051503B96FA99 /* [CP] Embed Pods Frameworks */,
+				D31FC2E5DD8BE493DCBA1A8B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Encryptr;
+			productName = Encryptr;
+			productReference = E4C3BF481EAE0D1A007A90F4 /* Encryptr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4C3BF401EAE0D1A007A90F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sheivin Goyal";
+				TargetAttributes = {
+					E4C3BF471EAE0D1A007A90F4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 47D7CRT66M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E4C3BF431EAE0D1A007A90F4 /* Build configuration list for PBXProject "Encryptr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4C3BF3F1EAE0D1A007A90F4;
+			productRefGroup = E4C3BF491EAE0D1A007A90F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4C3BF471EAE0D1A007A90F4 /* Encryptr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4C3BF461EAE0D1A007A90F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C3BF561EAE0D1A007A90F4 /* LaunchScreen.storyboard in Resources */,
+				9760CD881EB1B72F00A1EFAD /* GoogleService-Info.plist in Resources */,
+				E4C3BF531EAE0D1A007A90F4 /* Assets.xcassets in Resources */,
+				E4C3BF511EAE0D1A007A90F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43266F20BA7BFEA314B8DCEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D31FC2E5DD8BE493DCBA1A8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Encryptr/Pods-Encryptr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6193E2FDF7051503B96FA99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Encryptr/Pods-Encryptr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4C3BF441EAE0D1A007A90F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C3BF4E1EAE0D1A007A90F4 /* ViewController.swift in Sources */,
+				E4C3BF4C1EAE0D1A007A90F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4C3BF4F1EAE0D1A007A90F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4C3BF501EAE0D1A007A90F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4C3BF541EAE0D1A007A90F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4C3BF551EAE0D1A007A90F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4C3BF581EAE0D1A007A90F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4C3BF591EAE0D1A007A90F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4C3BF5B1EAE0D1A007A90F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6F37AD689C2FC125618296 /* Pods-Encryptr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47D7CRT66M;
+				INFOPLIST_FILE = Encryptr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheivin.Encryptr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E4C3BF5C1EAE0D1A007A90F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289C3640AC3777E7559AFD29 /* Pods-Encryptr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47D7CRT66M;
+				INFOPLIST_FILE = Encryptr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sheivin.Encryptr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4C3BF431EAE0D1A007A90F4 /* Build configuration list for PBXProject "Encryptr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C3BF581EAE0D1A007A90F4 /* Debug */,
+				E4C3BF591EAE0D1A007A90F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C3BF5A1EAE0D1A007A90F4 /* Build configuration list for PBXNativeTarget "Encryptr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C3BF5B1EAE0D1A007A90F4 /* Debug */,
+				E4C3BF5C1EAE0D1A007A90F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4C3BF401EAE0D1A007A90F4 /* Project object */;
+}
