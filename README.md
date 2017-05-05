@@ -22,3 +22,9 @@ The iOS app is an extension of the web application which most importantly serves
 We encrypt the secret message in the pixels of the image. Each image is made by multiple pixels, which comprises of R (red), G (green) and B(blue) components. Each of this can have a value between 0 and 255 and is stored in 8 bits. We use these bits to store our message. 
 The first step is to convert the message into a bit stream, which we do by appending ASCII characters (in Bits) of the message characters. Each character of the input message is 8 bits and hence we need 8 least significant bits to encrypt the message. The algorithm then iterates over each pixel of the image and stores a character in three pixels (3 RGB sets, hence 9 Bit Packets with 9 least significant bits), with one bit of the character replacing the least significant bit of one of the RGB bits.
 We also store the length of the message in the last pixel of the image. That’s 24 bits, and can store message lengths of upto 2 ^ 24 characters (if the image is big enough). The message length is converted into bits and it completely replaces the last pixel bits, with the length bits and leading 0’s. In the decryption algorithm, we first decode the length of the message from the last pixel, then we iterate for that length over the image, take “bit packets” and convert those bits into characters and hence retrieve the message. 
+
+# Members
+Kanishk Thareja
+Nihal Shah
+Sheivin Goyal
+Abhishek Verma
