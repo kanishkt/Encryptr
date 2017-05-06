@@ -13,6 +13,8 @@ Once the user uploads the .PNG file, the file is sent to the flask server where 
 Then there is a web-view in which the user is shown the original and the encrypted images (both looking the same to the naked eye).
 The image can then be decrypted by our decryption algorithm, which runs completely independently of the encryption algorithm. Hence the message returned from the decryption algorithm is what it figures out from the decoding the image itself.
 
+https://cloud.githubusercontent.com/assets/6327394/25769693/119e129c-31e6-11e7-9782-c5323c20c17c.png
+
 # iOS Application
 
 The iOS app is an extension of the web application which most importantly serves as providing a private key to verify the receiver’s identity and run the decryption algorithm on your server. The App has two ways to input a photo. It can either be inputted from the phone’s camera or using the photo gallery. Once the photo is selected you can write your secret message, who it is meant for and submit it to our server. The server encrypts the image with the message and stores it. Each app comes with a receiver view which is a collection of all photos. The receiver needs to simply select the photo that is meant for him and use “Touch id” confirm his/her identify. After this confirmation is sent to our server it decrypts the image and returns the string to the user and it is displayed as alert box. 
