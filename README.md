@@ -14,10 +14,18 @@ Then there is a web-view in which the user is shown the original and the encrypt
 The image can then be decrypted by our decryption algorithm, which runs completely independently of the encryption algorithm. Hence the message returned from the decryption algorithm is what it figures out from the decoding the image itself.
 
 ![Alt text](https://cloud.githubusercontent.com/assets/6327394/25769693/119e129c-31e6-11e7-9782-c5323c20c17c.png)
+![Alt text](https://cloud.githubusercontent.com/assets/6327394/25769711/69f2af70-31e6-11e7-8572-917634dc2929.png)
+![Alt text](https://cloud.githubusercontent.com/assets/6327394/25769713/80c75430-31e6-11e7-9120-be2360412529.png)
+![Alt text](https://cloud.githubusercontent.com/assets/6327394/25769717/8dfba778-31e6-11e7-880c-3616acc7a1c4.png)
 
 # iOS Application
 
 The iOS app is an extension of the web application which most importantly serves as providing a private key to verify the receiver’s identity and run the decryption algorithm on your server. The App has two ways to input a photo. It can either be inputted from the phone’s camera or using the photo gallery. Once the photo is selected you can write your secret message, who it is meant for and submit it to our server. The server encrypts the image with the message and stores it. Each app comes with a receiver view which is a collection of all photos. The receiver needs to simply select the photo that is meant for him and use “Touch id” confirm his/her identify. After this confirmation is sent to our server it decrypts the image and returns the string to the user and it is displayed as alert box. 
+
+![Alt text](https://cloud.githubusercontent.com/assets/6327394/25769722/b42775b2-31e6-11e7-8973-22c9c37cad35.PNG)
+![Alt text](https://cloud.githubusercontent.com/assets/6327394/25769727/d61964d2-31e6-11e7-8f95-556bb637109e.PNG)
+![Alt text](https://cloud.githubusercontent.com/assets/6327394/25769723/c550f390-31e6-11e7-9990-830363339cf8.PNG)
+
 
 # Encryption Algorithm
 
