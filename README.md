@@ -13,7 +13,7 @@ Once the user uploads the .PNG file, the file is sent to the flask server where 
 Then there is a web-view in which the user is shown the original and the encrypted images (both looking the same to the naked eye).
 The image can then be decrypted by our decryption algorithm, which runs completely independently of the encryption algorithm. Hence the message returned from the decryption algorithm is what it figures out from the decoding the image itself.
 
-https://cloud.githubusercontent.com/assets/6327394/25769693/119e129c-31e6-11e7-9782-c5323c20c17c.png
+![Alt text](https://cloud.githubusercontent.com/assets/6327394/25769693/119e129c-31e6-11e7-9782-c5323c20c17c.png)
 
 # iOS Application
 
