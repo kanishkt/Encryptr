@@ -61,7 +61,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             context.evaluatePolicy(LAPolicy.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason, reply: { (success, error) -> Void in
                 if (success) {
                     print("Auth was OK");
-                    let alert = UIAlertController(title: "Secret Message", message: "Fake Decrypt message here", preferredStyle: UIAlertControllerStyle.alert)
+                    let alert = UIAlertController(title: "Secret Message", message: "This is the secret message", preferredStyle: UIAlertControllerStyle.alert)
                     alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: nil))
                     self.present(alert, animated: true, completion: nil)
                 }
